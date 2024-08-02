@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Landing Page - Shayan Shah</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="navbar">
+        <a href="#" class="logo"> SkyLine </a>
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <button>Discover</button>
+      </div>
+      <div class="bottom-sec">
+        <div class="bottom-left">
+          <h1>Experience the night sky</h1>
+          <h3>
+            Unveil the beauty of the moon and stars with our interactive design
+          </h3>
+          <p>
+            Experience the transition from darkness to light as the moon reveals
+            its lumious beauty. However over the moon to watch it glow and stars
+            appear, bringing the night sky to life.
+          </p>
+          <form>
+            <input type="email" name="email" placeholder="yourname@xyz.com" />
+            <button>Subscribe Now</button>
+          </form>
+        </div>
+        <div class="bottom-right">
+          <img src="./images/main-img.jpg" alt="" class="main1" id="Main1" />
+          <img src="./images/main2-img.png" alt="" class="main2" id="Main2" />
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const Main1 = document.getElementById("Main1");
+        const Main2 = document.getElementById("Main2");
+        Main2.addEventListener("mouseenter", function () {
+          Main1.style.opacity = "1";
+          Main2.style.opacity = "0";
+        });
+
+        Main2.addEventListener("mouseleave", function () {
+          Main1.style.opacity = "0";
+          Main2.style.opacity = "1";
+        });
+      });
+    </script>
+  </body>
+</html>
