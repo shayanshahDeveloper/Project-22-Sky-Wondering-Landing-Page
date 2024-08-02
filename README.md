@@ -2,7 +2,7 @@
 <h3 align="center">A Passionate Frontend Developer from Pakistan</h3>
 
 
-# Moon Saprkle Responsive Webite
+# Moon Sparkle Responsive Website
 Language Uses: HTML, CSS
 ## ScreenShots
 ![moon](https://github.com/user-attachments/assets/3c41cf1a-23d5-4adf-b3fd-e0bf9235e2b8)
@@ -12,7 +12,7 @@ Language Uses: HTML, CSS
 
 ## Check Out The Website 👇
 
-Visit The Website🌐 [Moon Saprkle Webite | Shayan Shah](https://shayanshahdeveloper.github.io/Project-22-Sky-Wondering-Landing-Page/)
+Visit The Website🌐 [Moon Sparkle Website | Shayan Shah](https://shayanshahdeveloper.github.io/Project-22-Sky-Wondering-Landing-Page/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
